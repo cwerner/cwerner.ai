@@ -7,87 +7,94 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>cwerner.ai</title>
   </head>
   <body>
-
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">cwerner.ai</h1>
+          <p class="lead">Projects apps and code.</p>
+          <p class="lead"><a href="https://www.christianwerner.net"><i class="fa fa-home"></i> Home</a> | <a href="https://github.com/cwerner"><i class="fa fa-github"></i> Code</a></p>
+        </div>
+      </div>
     <div class="py-5">
         <div class="container">
-          <div class="row hidden-md-up">
-
-            <div class="col-md-4">
-                <div class="card h-100 bg-light text-dark">
+          <div class="row">
+            <div class="col">
+                <div class="card h-100 bg-dark text-light">
                 <img class="card-img-top" src="assets/card_covid19.png" alt="Covid19">
                 <div class="card-body">
                     <h4 class="card-title">COVID-19</h4>
-                    <p class="card-text small">A data explorer app that tracks the COVID-19 epidemic.</p>
+                    <p class="card-text small">A data explorer app that tracks the COVID-19 epidemic for selected European countries.</p>
                   </div>
-                  <div class="card-footer text-muted text-center">
-                    <a href="https://covid19.cwerner.ai" class="btn btn-primary">Run the app</a>
-                    <a href="https://github.com/cwerner/covid19" class="btn btn-secondary">Check code</a>                  </div>
-                </div>
+
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary" href="https://covid19.cwerner.ai"><i class="fa fa-play-circle"></i> Run</a>
+                    <button type="button" class="btn btn-secondary" href="https://github.com/cwerner/covid19"><i class="fa fa-github"></i> Code</a>
+                  </div>
+                  </div>
             </div>
 
-            <div class="col-md-4">
-              <div class="card h-100 bg-light text-dark">
-              <img class="card-img-top" src="assets/card_philippines.png" alt="Philippines">
+            <div class="col">
+                <div class="card h-100 bg-dark text-light">
+                    <img class="card-img-top" src="assets/card_philippines.png" alt="Philippines">
                 <div class="card-body">
                   <h4 class="card-title">Philippines</h4>
-                  <p class="card-text small">Another data explorer app. This illustrates GHG emissions from of Philippine rice paddies as simulated with LandscapeDNDC.</p>
+                  <p class="card-text small">This app illustrates GHG emissions from of Philippine rice paddies as simulated with <a href="https://ldndc.imk-ifu.kit.edu">LandscapeDNDC</a>.</p>
                 </div>
-                <div class="card-footer text-muted text-center">
-                  <a href="https://philippines.cwerner.ai" class="btn btn-primary">Run the app</a>
-                  <a href="https://github.com/cwerner/adl01_streamlit-demo" class="btn btn-secondary">Check code</a>
-                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary" href="https://philippines.cwerner.ai"><i class="fa fa-play-circle"></i> Run</a>
+                    <button type="button" class="btn btn-secondary" href="https://github.com/cwerner/adl01_streamlit-demo"><i class="fa fa-github"></i> Code</a>
+                  </div>
               </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card h-100 bg-light text-dark">
-                <img class="card-img-top" src="assets/card_guitars.png" alt="Guitars">
+            <div class="col">
+                <div class="card h-100 bg-dark text-light">
+                    <img class="card-img-top" src="assets/card_guitars.png" alt="Guitars">
                   <div class="card-body">
                     <h4 class="card-title">Guitars</h4>
                     <p class="card-text small">This app uses a CNN model to predict which guitar model is present in a given image.</p>
                   </div>
-                  <div class="card-footer text-muted text-center">
-                    <a href="https://guitars.cwerner.ai" class="btn btn-primary">Run the app</a>
-                    <a href="https://github.com/cwerner/guitars-app" class="btn btn-secondary">Check code</a>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary" href="https://guitars.cwerner.ai"><i class="fa fa-play-circle"></i> Run</a>
+                    <button type="button" class="btn btn-secondary" href="https://github.com/cwerner/guitars-app"><i class="fa fa-github"></i> Code</a>
                   </div>
                 </div>
               </div>
 
         </div><br>
           <div class="row">
-            <div class="col-md-4">
-                <div class="card h-100 bg-light text-dark">
-                <img class="card-img-top" src="assets/card_adl.png" alt="Alpine Data Lovers">
+            <div class="col">
+                <div class="card h-100 bg-dark text-light">
+                    <img class="card-img-top" src="assets/card_adl.png" alt="Alpine Data Lovers">
 
                   <div class="card-body">
                     <h4 class="card-title">Alpine Data Lovers</h4>
-                    <p class="card-text small">Here you can browse previous meetups (incl. videos and code links) and learn about upcoming events.</p>
+                    <p class="card-text small">The landing page for the <a href="https://www.meetup.com/alpine-data-lovers/">Alpine Data Lovers</a> meetup. 
+                        Browse previous events and also find the recordings, slides and code...</p>
                   </div>
-                  <div class="card-footer text-muted text-center">
-                    <a href="https://alpine-data-lovers.cwerner.ai" class="btn btn-primary">Run the app</a>
-                    <a href="https://github.com/cwerner/alpine-data-lovers" class="btn btn-secondary">Check code</a>
+
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary" href="https://alpine-data-lovers.cwerner.ai"><i class="fa fa-play-circle"></i> Run</a>
+                    <button type="button" class="btn btn-secondary" href="https://github.com/cwerner/alpine-data-lovers"><i class="fa fa-github"></i> Code</a>
                   </div>
                 </div>
               </div>
-            <div class="col-md-4">
-              <div class="card h-100 bg-light text-dark">
-                <img class="card-img-top" src="assets/card_comingsoon1.png" alt="Coming soon">
+            <div class="col">
+                <div class="card h-100 bg-dark text-light">
+                    <img class="card-img-top" src="assets/card_comingsoon1_bw.png" alt="Coming soon">
                 <div class="card-body">
-                  <h4 class="card-title">Another app</h4>
-                  <p class="card-text small">...</p>
+                    <h4 class="card-title text-muted">Another app</h4>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card h-100 bg-light text-dark">
-                <img class="card-img-top" src="assets/card_comingsoon2.png" alt="Coming soon">
+            <div class="col">
+                <div class="card h-100 bg-dark text-light">
+                    <img class="card-img-top" src="assets/card_comingsoon2_bw.png" alt="Coming soon">
                 <div class="card-body">
-                  <h4 class="card-title">Yet another one...</h4>
-                  <p class="card-text small">...</p>
+                  <h4 class="card-title text-muted">Yet another app</h4>
                 </div>
               </div>
             </div>
